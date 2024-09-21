@@ -94,7 +94,7 @@ li a{
     background-color: #CDC2A5;
    
 }
-/* Hamburger Menu */
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -109,7 +109,7 @@ li a{
     margin: 3px 0;
     transition: 0.3s;
   }
-/* Responsive layout */
+
 @media (max-width: 768px) {
     .Nav-list {
       display: none;
@@ -139,7 +139,7 @@ li a{
     }
   }
 .Hero {
-    background-image: url(../img/hero7.png);
+    background-image: url(Img/hero7.png);
     background-color: #CDC2A5;
     text-align: center;
     padding: 4rem 2rem;
@@ -388,7 +388,7 @@ cursor: pointer;
 .about-me-expand .overview,
 .about-me-expand .education,
 .about-me-expand .experience {
-    display: none; /* Default to none */
+    display: none; 
 }
 
 .about-me-expand .active {
@@ -707,7 +707,7 @@ text-shadow: #444;
     align-items: center;
     position: relative;
     height: 100vh; 
-    background-image: url(../img/undraw_contact_us_re_4qqt.svg);
+    background-image: url(Img/undraw_contact_us_re_4qqt.svg);
     background-size: cover;
 }
 .contact-me form {
